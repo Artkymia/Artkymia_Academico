@@ -12,6 +12,8 @@
 */
 Route::get('prueba', function(){
 return 'Hola desde Routes';});
+Route::get('prueba2', function(){
+return 'Hola desde Routes';});
 Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');
